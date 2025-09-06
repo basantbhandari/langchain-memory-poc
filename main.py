@@ -3,7 +3,6 @@ import json
 from typing import Optional, List, Mapping, Any
 from contextlib import asynccontextmanager
 import boto3
-from langchain.chains import ConversationalRetrievalChain
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from langchain_community.vectorstores import FAISS
